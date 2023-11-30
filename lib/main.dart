@@ -1,4 +1,4 @@
-import 'package:ecommerce/screens/splash_screen.dart';
+import 'package:ecommerce/screens/sign_up.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +12,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
+      home: SignUp(),
     );
   }
 }
